@@ -1,0 +1,36 @@
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/appsettings.Development.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/appsettings.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/To-Do Api.staticwebassets.endpoints.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/To-Do Api
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/To-Do Api.deps.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/To-Do Api.runtimeconfig.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/To-Do Api.dll
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/To-Do Api.pdb
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/Microsoft.OpenApi.dll
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.csproj.AssemblyReference.cache
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/rpswa.dswa.cache.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.AssemblyInfoInputs.cache
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.AssemblyInfo.cs
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.csproj.CoreCompileInputs.cache
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.MvcApplicationPartsAssemblyInfo.cs
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.MvcApplicationPartsAssemblyInfo.cache
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/scopedcss/bundle/To-Do Api.styles.css
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/staticwebassets.build.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/staticwebassets.build.json.cache
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/staticwebassets.development.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/swae.build.ex.cache
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.csproj.Up2Date
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.dll
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/refint/To-Do Api.dll
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.pdb
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.genruntimeconfig.cache
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/ref/To-Do Api.dll
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
