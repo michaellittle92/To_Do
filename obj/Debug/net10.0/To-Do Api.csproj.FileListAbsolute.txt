@@ -34,3 +34,4 @@
 /Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/michael/RiderProjects/To-Do Api/To-Do Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/michael/RiderProjects/To-Do Api/To-Do Api/obj/Debug/net10.0/To-Do Api.sourcelink.json
