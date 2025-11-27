@@ -30,16 +30,6 @@ if (app.Environment.IsDevelopment())
 var todoRoute = app.MapGroup("/api/todos");
 
 
-//GET /todos
-
-todoRoute.MapGet(string.Empty, () =>
-{
-    return Results.Ok(todos.Select(todo => new GetTodoResponse
-    {
-        Text = todo.Text,
-        IsDone = todo.IsDone
-    }));
-});
 //GET /todos/{id}
 
 todoRoute.MapGet("{id:int}", (int id) =>
@@ -55,6 +45,31 @@ todoRoute.MapGet("{id:int}", (int id) =>
         Text = todo.Text,
         IsDone = todo.IsDone
     });
+});
+
+//Query string
+todoRoute.MapGet(string.Empty, (int? id) =>
+{
+    if (id.HasValue)
+    {
+        var todo = todos.FirstOrDefault(t => t.Id == id.Value);
+        if (todo is null)
+        {
+            return Results.NotFound();
+        }
+
+        return Results.Ok(new GetTodoResponse
+        {
+            Text = todo.Text,
+            IsDone = todo.IsDone
+        });
+    }
+
+    return Results.Ok(todos.Select(todo => new GetTodoResponse
+    {
+        Text = todo.Text,
+        IsDone = todo.IsDone
+    }));
 });
 
 //POST /todos
@@ -75,6 +90,7 @@ todoRoute.MapPost(String.Empty, (CreateTodoRequest todo) =>
     todos.Add(newTodo);
     return Results.Created($"/api/todos/{newTodo.Id}", todo);
 });
+
 
 //Update /Put /todos/{id}
 todoRoute.MapPut("{id:int}", (UpdateTodoRequest todo, int id) =>
