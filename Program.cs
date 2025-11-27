@@ -61,6 +61,10 @@ todoRoute.MapGet("{id:int}", (int id) =>
 
 todoRoute.MapPost(String.Empty, (CreateTodoRequest todo) =>
 {
+    if (string.IsNullOrWhiteSpace(todo.Text))
+    {
+        return Results.BadRequest("Text is required");
+    }
     var newTodo = new Todo
 
     {
@@ -88,7 +92,16 @@ todoRoute.MapPut("{id:int}", (UpdateTodoRequest todo, int id) =>
 
 
 //DELETE /todos/{id}
+todoRoute.MapDelete("{id:int}", (int id) =>
+{
+    var todo = todos.FirstOrDefault(t => t.Id == id);
+    if (todo == null)
+    {return Results.NotFound();}
 
+    todos.Remove(todo);
+    return Results.NoContent();
+
+});
 
 app.UseHttpsRedirection();
 
